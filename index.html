@@ -9,12 +9,20 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css"
         integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-</head>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Clearly Broken Software</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css"
+            integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
+    </head>
 
 <body>
     <header id="header">
         <div id="header-img-container">
-            <img id="header-img" src="images/clearlybroken.png" height=50px" <nav id="nav-bar">
+            <img id="header-img" src="images/clearlybroken.png" height="50px" alt="logo">
         </div>
         <nav id="nav-bar">
             <ul class="nav-ul">
@@ -27,8 +35,7 @@
     <main>
         <h1 id="title">Clearly Broken Software</h1>
 
-        
-            <h2 class="tagline">Very Awesome Audio Software</h2>
+        <h2 class="tagline">Very Awesome Audio Software</h2>
         <p id="description">I make audio plugins.
         </p>
 
@@ -39,7 +46,7 @@
                 <i class="fa fa-apple"></i>
             </h2>
             <div class="product_grid_l">
-                <img class="product_img" src="images/Ninjas2.png">
+                <img class="product_img" src="images/Ninjas2.png" alt="Ninjas2 screenshot">
                 <p class="product_description">
                     <span class="tagline">Ninjas Is Not Just Another Slicer.</span> I couldn't find a linux sample
                     slicer plugin, so I made one.
@@ -50,7 +57,7 @@
                     <li>each slice is automatically mapped to a midi note, starting at C4 (note 60) and up and wraps
                         around when more is needed</li>
                     <li>ADSR and Play direction for each slice</li>
-                    <li>zoomable and scrollable waveform display</li>
+                    <li>zoom-able and scroll-able waveform display</li>
                 </ul>
                 </p>
             </div>
@@ -67,15 +74,15 @@
                     so I could use that as the sound engine for this plugin. Many thanks for all the help I got from the
                     sfizz team.
                 </p>
-                <img class="product_img" src="images/Drops1.0beta.png">
+                <img class="product_img" src="images/Drops1.0beta.png" alt="Drops screenshot">
                 <ul class="product_list">
                     <li>single sample old skool sample player</li>
                     <li>load audio samples supported by <a href="http://www.mega-nerd.com/libsndfile/"
                             target="_blanc">libsndfile</a></li>
                     <li>play from disk</li>
-                    <li>zoomable and scrollable waveform display</li>
+                    <li>zoom-able and scroll-able waveform display</li>
                     <li>edit points for sample start, end and loop points</li>
-                    <li>several play direction and loop moded</li>
+                    <li>several play direction and loop modes</li>
                     <li>several pitch options</li>
                     <li>ADSR for amp,filter and pitch</li>
                     <li>LFO for amp, filter and pitch</li>
@@ -88,30 +95,32 @@
             <h2>but wait ... there's more</h2>
             <p> Well, there's more to come. On my ever increasing todo list is:
             <ul>
-                <li>Boomer, a midi-drum-loop-sequencer-plugin. Hope this makes sense. Wait till it comes out, you'll
-                    love it. It's pretty hard to make so it might take a while.
+                <li>Boomer, a midi-drum-loop-sequencer-plugin
                 </li>
-                <li>Punch, a punchy compressor with character. Currently the UI takes way too much cpu, hopefully the
-                    new DPF can help with fixing that.
+                <li>Punch, a punchy compressor with character
                 </li>
-                <li>Soundboard, a stupidly simple plugin to just smash a pad and it plays a sample.</li>
-                <li>Nanoinvader, play space invaders in your host. because /me </li>
-                <li>Uprising, a transition synth, for risers and stuff.</li>
+                <li>Soundboard, hit a pad and it plays a sample</li>
+                <li>Nanoinvader, play space invaders in your host </li>
+                <li>Uprising, a transition synth</li>
             </ul>
             </p>
         </div>
-        <div id="video" class="product">
+        <div id="video_container" class="product">
             <p>It seems people actually use my plugins. That's pretty cool.</p>
-            <iframe height="315" src="https://www.youtube.com/embed/E02cR5C6MKI" frameborder="0"
+            <iframe id="video" height="315" src="https://www.youtube.com/embed/E02cR5C6MKI" frameborder="0"
                 allowfullscreen></iframe>
         </div>
-        <form id="survey-form" action="https://www.freecodecamp.com/email-submit">
+        <!--
+          <form id="form" action="https://www.freecodecamp.com/email-submit">
             <fieldset>
-                <legend>sign up for our newsletter</legend>
-                <input type="email" name="email" id="input_email" required placeholder="there's not really a newletter">
-                <button id="submit">Submit</button>
-        </form>
+              <legend>sign up for our newsletter</legend>
+              <input name="email" id="email" type="email" placeholder="Enter your email address" required />
+              <input name="submit" type="submit" id="submit" value="Subscribe" />
+      
+            </fieldset>
+          </form>
+        -->
     </main>
 </body>
-
+</head>
 </html>
